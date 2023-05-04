@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "mi-Fuente-Personal";
+    src: url(./Fuente/ArnoldeScript_PERSONAL_USE_ONLY.otf);
+
+}
+
+@font-face {
+    font-family: "fuente-neon";
+    src: url(./Fuente/NEONLEDLight.otf);
+    ;
+
+}
+
+.pag1 {
+
+    background-image: linear-gradient(90deg, rgb(237, 228, 100), rgb(252, 152, 51));
+}
+
+.miFuente {
+    font-family: "mi-Fuente-Personal";
+    font-size: 680%;
+    color: rgb(14, 1, 1);
+}
+
+.pag2 {
+    background-image: linear-gradient(90deg, rgb(160, 222, 219), rgb(3, 165, 209));
+}
+
+.pag3 {
+
+    background-image: linear-gradient(90deg, rgb(109, 192, 190), rgb(11, 73, 25));
+}
+
+.problema3 {
+
+    background: #009FFF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ec2F4B, #009FFF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.titulo1 {
+
+    font-family: "fuente-neon";
+    font-size: 100px;
+}
+
+.problema4 {
+
+    background: #3E5151;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DECBA4, #3E5151);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.problema5 {
+
+    background: #30E8BF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF8235, #30E8BF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF8235, #30E8BF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.firma{
+    height: 50px;
+}

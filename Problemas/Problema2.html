@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema 2</title>
+    <link rel="stylesheet" href="../estilo.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+</head>
+
+<body class="pag3">
+
+    <div class="container">
+        <h1 class="text-center py-5 titulo1">Problema 2</h1>
+        <h4 class="text-center">Verifica si el numero que ingresas es par o impar</h4>
+        <div class="row">
+            <div class="col-6 offset-3 pt-lg-4">
+                <form>
+                    <input class="form-control mb-3 text-center" id="numeroUsuario" type="text"
+                        placeholder="Ingrese un número">
+                    <div class="form-floating">
+
+                </form>
+                <div class="d-flex justify-content-end mt-4">
+                    <button onclick="verificarNumero()" type="button" id="btnNumero"
+                        class="btn btn-danger fw-bold align-items-center">VERIFICA TU NÚMERO</button>
+                </div>
+                <h1 id="resultado"></h1>
+            </div>
+            <div class="col-10 mt-5">
+                <div class="row row-cols-1 row-cols-md-3 g-4" id="notasGuardadas">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="../node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../Problemas/Problema2.js"></script>
+</body>
+
+</html>

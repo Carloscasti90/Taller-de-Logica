@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema 5</title>
+    <link rel="stylesheet" href="../estilo.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+</head>
+</head>
+
+<body class="problema5">
+    <h1 class="text-center py-5 titulo1">Tabla de multiplicar</h1>
+    <div class="container ">
+    <h4 class="text-center d-flex justify-content-center mt-4">Ingresa un número:</h4>
+
+    <div class="d-flex justify-content-center mt-4">
+    <input type="number" id="numero">
+    <button class="btn btn-danger fw-bold align-items-center" onclick="mostrarTabla()">Mostrar tabla</button>
+    <br><br>
+    <table id="tabla"></table>
+    <br>
+    <div id="total"></div>
+</div>
+    </div>
+
+
+    <script>
+        function mostrarTabla() {
+
+            const numero = document.getElementById("numero").value;
+
+
+            let total = 0;
+
+
+            let tabla = "<tr><th>Operación</th><th>Resultado</th></tr>";
+
+
+            for (let i = 1; i <= 10; i++) {
+                const resultado = numero * i;
+                tabla += "<tr><td>" + numero + " x " + i + "</td><td>" + resultado + "</td></tr>";
+                total += resultado;
+            }
+
+
+            document.getElementById("tabla").innerHTML = tabla;
+            document.getElementById("total").innerHTML = "El total de las multiplicaciones es: " + total;
+        }
+    </script>
+</body>
+
+</html>
